@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>quiz</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+	<div class="page-header">
+  <h1>KVIZ</h1>
+</div>
+<div class="container frame" id="block" >
+	<div class="well well-lg textQuestion" id="q"></div>
+	<div  class="well well-sm textAnswer" id="a1"></div>
+	<div class="well well-sm textAnswer " id="a2"></div>
+	<div  class="well well-sm textAnswer" id="a3"></div>
+  
+</div>
+
+
+
+<div class="container frame1" id="sorry">
+	<div class="well well-lg textQuestion fal " id="note">Žao nam je pogrešno ste odgovorili na pitanje ,pokušajte ponovo!</div>
+	<div  class="well well-sm textAnswer fal" id="an">POKRENI PONOVO KVIZ</div>
+	<div  class="well well-sm textAnswer fal" id="retry">POKRENI PONOVO KVIZ</div>
+	
+  
+</div>
+<div class="container frame2" id="congradulation">
+	<div class="well well-lg textQuestion fal2 ">ČESTITAMO!</div>
+	<div  class="well well-sm textAnswer fal2" id="retry1">POKRENI PONOVO KVIZ</div>
+	
+</div>
+
+<div class="btn-group" id="group">
+  <button type="button" class="btn" id="b1">Pokreni novi kviz</button>
+  <button type="button" class="btn" id="b2">Pomoć</button>
+  <button type="button" class="btn" id="b3">Preskoči pitanje</button>
+</div>
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script src="js/quiz.js"></script>
+
+</body>
+</html>
